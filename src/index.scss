@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Cairo";
+  src: url("./assets/fonts/Cairo-Regular.eot");
+  src: url("./assets/fonts/Cairo-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Cairo-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Cairo-Regular.woff") format("woff"),
+    url("./assets/fonts/Cairo-Regular.ttf") format("truetype"),
+    url("./assets/fonts/Cairo-Regular.svg#Cairo-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cairo";
+  src: url("./assets/fonts/Cairo-ExtraLight.eot");
+  src: url("./assets/fonts/Cairo-ExtraLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Cairo-ExtraLight.woff2") format("woff2"),
+    url("./assets/fonts/Cairo-ExtraLight.woff") format("woff"),
+    url("./assets/fonts/Cairo-ExtraLight.ttf") format("truetype"),
+    url("./assets/fonts/Cairo-ExtraLight.svg#Cairo-ExtraLight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cairo";
+  src: url("./assets/fonts/Cairo-Bold.eot");
+  src: url("./assets/fonts/Cairo-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/Cairo-Bold.woff2") format("woff2"),
+    url("./assets/fonts/Cairo-Bold.woff") format("woff"),
+    url("./assets/fonts/Cairo-Bold.ttf") format("truetype"),
+    url("./assets/fonts/Cairo-Bold.svg#Cairo-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cairo";
+  src: url("./assets/fonts/Cairo-Black.eot");
+  src: url("./assets/fonts/Cairo-Black.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/Cairo-Black.woff2") format("woff2"),
+    url("./assets/fonts/Cairo-Black.woff") format("woff"),
+    url("./assets/fonts/Cairo-Black.ttf") format("truetype"),
+    url("./assets/fonts/Cairo-Black.svg#Cairo-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cairo";
+  src: url("./assets/fonts/Cairo-Light.eot");
+  src: url("./assets/fonts/Cairo-Light.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/Cairo-Light.woff2") format("woff2"),
+    url("./assets/fonts/Cairo-Light.woff") format("woff"),
+    url("./assets/fonts/Cairo-Light.ttf") format("truetype"),
+    url("./assets/fonts/Cairo-Light.svg#Cairo-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cairo";
+  src: url("./assets/fonts/Cairo-SemiBold.eot");
+  src: url("./assets/fonts/Cairo-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Cairo-SemiBold.woff2") format("woff2"),
+    url("./assets/fonts/Cairo-SemiBold.woff") format("woff"),
+    url("./assets/fonts/Cairo-SemiBold.ttf") format("truetype"),
+    url("./assets/fonts/Cairo-SemiBold.svg#Cairo-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  -ms-overflow-style: none;
+  overflow: auto;
+}
+
+body {
+  background-color: #0e1117;
+  margin: 0px;
+  padding: 0px;
+
+  font-family: "Cairo", "Roboto", Fallback, sans-serif;
+  line-height: unset;
+}
+
+.d-flex{
+  display: flex;
+}
+.flex-center{
+  align-items: center;
+}
+
+.flex-content-end{
+justify-content: flex-end;
+}

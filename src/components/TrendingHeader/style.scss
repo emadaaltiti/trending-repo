@@ -1,0 +1,20 @@
+.Trending-header {
+  background-color: #161b22;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom: 1px solid #30363d;
+  h1 {
+    font-size: 32px !important;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  p {
+    color: #8b949e;
+    margin-top: 10px;
+    padding: 0;
+  }
+}
